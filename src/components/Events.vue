@@ -24,23 +24,23 @@ export default {
     return{
       events:[
         {
-          img: "../assets/img/event-05-400x240.jpg",
+          img: "img/event-05-400x240.jpg",
           alt: "image",
           title: "Chicago Book Signing",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magnam, tempora ut optio porro voluptatum vel quibusdam, modi maxime necessitatibus earum? Distinctio, officia? Velit neque aliquid atque, voluptatibus corporis earum.",
         },  
         {
-          img: "../assets/img/event-04-400x240.jpg",
-           alt: "image",
+          img: "img/event-04-400x240.jpg",
+          alt: "image",
           title: "Meet & Greet With Amanda",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magnam, tempora ut optio porro voluptatum vel quibusdam, modi maxime necessitatibus earum? Distinctio, officia? Velit neque aliquid atque, voluptatibus corporis earum.",
         },  
         {
-          img: "../assets/img/event-07-400x240.jpg",
-           alt: "image",
+          img: "img/event-07-400x240.jpg",
+          alt: "image",
           title: "Open Book: Dialogues",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magnam, tempora ut optio porro voluptatum vel quibusdam, modi maxime necessitatibus earum? Distinctio, officia? Velit neque aliquid atque, voluptatibus corporis earum.",
-        },  
+        }  
       ]
 
     }

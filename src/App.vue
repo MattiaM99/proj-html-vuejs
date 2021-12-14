@@ -6,6 +6,7 @@
     <Review/>
     <Events/>
     <Newsletter/>
+    <Authorbio/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import AudioBook from './components/AudioBook.vue'
 import Review from './components/Review.vue'
 import Events from './components/Events.vue'
 import Newsletter from './components/Newsletter.vue'
+import Authorbio from './components/Authorbio.vue'
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     AudioBook,
     Review,
     Events,
-    Newsletter
+    Newsletter,
+    Authorbio
   }
 }
 </script>
