@@ -4,6 +4,7 @@
     <AboutAuthor/>
     <AudioBook/>
     <Review/>
+    <Events/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from './components/Header.vue'
 import AboutAuthor from './components/AboutAuthor.vue'
 import AudioBook from './components/AudioBook.vue'
 import Review from './components/Review.vue'
+import Events from './components/Events.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     Header,
     AboutAuthor,
     AudioBook,
-    Review
+    Review,
+    Events
   }
 }
 </script>
