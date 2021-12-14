@@ -3,7 +3,7 @@
     <Header/>
     <AboutAuthor/>
     <AudioBook/>
-
+    <Review/>
   </div>
 </template>
 
@@ -11,13 +11,15 @@
 import Header from './components/Header.vue'
 import AboutAuthor from './components/AboutAuthor.vue'
 import AudioBook from './components/AudioBook.vue'
+import Review from './components/Review.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     AboutAuthor,
-    AudioBook
+    AudioBook,
+    Review
   }
 }
 </script>
