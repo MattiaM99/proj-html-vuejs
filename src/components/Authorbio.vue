@@ -72,12 +72,17 @@ export default {
           height: 100%;
           width: 100%;
           border-radius: 0 0 50px 0;
+          filter: brightness(40%);
+          cursor: pointer;
         }
         .box-caption{
           position: absolute;
           z-index: 9;
           bottom: 0;
           left: 125px;
+          h3{
+            color: white;
+          }
           p{
             color: #F4B429;
           }

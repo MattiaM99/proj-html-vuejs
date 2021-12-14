@@ -2,7 +2,7 @@
   <div class="container-fluid events-container d-flex justify-content-center align-items-center flex-column">
     <h2>Upcoming Events</h2>
     <h3>meet the author in person</h3>
-    <div class="container upcoming-events d-flex  justify-content-between align-items-center ">
+    <div class="container upcoming-events d-flex justify-content-around align-items-center ">
       <ul class="d-flex flex-row">
         <li v-for="(event, index) in events" :key="index" class="event text-center">
           <div class="img-box">
@@ -17,6 +17,10 @@
 </template>
 
 <script>
+import image1 from "../assets/img/event-05-400x240.jpg"
+import image2 from "../assets/img/event-04-400x240.jpg"
+import image3 from "../assets/img/event-07-400x240.jpg"
+
 export default {
   name:"Events",
 
@@ -24,19 +28,19 @@ export default {
     return{
       events:[
         {
-          img: "img/event-05-400x240.jpg",
+          img: image1,
           alt: "image",
           title: "Chicago Book Signing",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magnam, tempora ut optio porro voluptatum vel quibusdam, modi maxime necessitatibus earum? Distinctio, officia? Velit neque aliquid atque, voluptatibus corporis earum.",
         },  
         {
-          img: "img/event-04-400x240.jpg",
+          img: image2,
           alt: "image",
           title: "Meet & Greet With Amanda",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magnam, tempora ut optio porro voluptatum vel quibusdam, modi maxime necessitatibus earum? Distinctio, officia? Velit neque aliquid atque, voluptatibus corporis earum.",
         },  
         {
-          img: "img/event-07-400x240.jpg",
+          img: image3,
           alt: "image",
           title: "Open Book: Dialogues",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magnam, tempora ut optio porro voluptatum vel quibusdam, modi maxime necessitatibus earum? Distinctio, officia? Velit neque aliquid atque, voluptatibus corporis earum.",
@@ -63,9 +67,9 @@ export default {
         .event{
           min-height: 500px;
           background-color: #fff;
-          margin: 0 50px;
+          margin: 10px;
           .event-name{
-            border-bottom: 1px solid gray;
+            border-bottom: 1px solid lightgray;
             padding: 25px;
             font-size: 20px;
           }
