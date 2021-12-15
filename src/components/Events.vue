@@ -8,8 +8,10 @@
           <div class="img-box">
             <img :src="event.img" :alt="event.alt">
           </div>
-          <h4 class="event-name">{{event.title}}</h4>
-          <p>{{event.description}}</p>
+          <div class="event-caption">
+            <h4 class="event-name">{{event.title}}</h4>
+            <p>{{event.description}}</p>
+          </div>
         </li>
       </ul>
     </div>
@@ -64,14 +66,23 @@ export default {
     .upcoming-events{
       ul{
         list-style: none;
+        padding-left: 0 !important;
         .event{
           min-height: 500px;
           background-color: #fff;
-          margin: 10px;
+          margin: 10px; 
+          .img-box{
+            img{
+              width: 100%;
+            }
+          }       
           .event-name{
             border-bottom: 1px solid lightgray;
             padding: 25px;
             font-size: 20px;
+          }
+          .event-caption{
+            padding: 40px;
           }
         }
       }

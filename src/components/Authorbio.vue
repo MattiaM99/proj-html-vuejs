@@ -79,7 +79,7 @@ export default {
           position: absolute;
           z-index: 9;
           bottom: 0;
-          left: 125px;
+          width: 100%;
           h3{
             color: white;
           }
