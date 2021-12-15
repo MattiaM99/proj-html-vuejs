@@ -72,6 +72,11 @@ export default {
         width: 400px;
         opacity: 0.9;
         margin-bottom: 30px;
+        &:hover{
+          height: 420px;
+          width: 420px;
+          transition: 0.8s;
+        }
         img{
           background-size: cover;
           height: 100%;
@@ -79,6 +84,10 @@ export default {
           border-radius: 0 0 50px 0;
           filter: brightness(40%);
           cursor: pointer;
+          &:hover{
+            box-shadow:  4px 8px 30px #888888;
+            transition: 0.8s;
+          }
         }
         .box-caption{
           position: absolute;

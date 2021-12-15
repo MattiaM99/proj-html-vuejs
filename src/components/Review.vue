@@ -70,6 +70,10 @@ export default {
       padding: 10px 25px;
       border: 0;
       border-radius: 5px;
+      &:hover{
+        background-color: #F4A700;
+        transition: 0.8s;
+      }
     }
     .review-main{
       margin-top: 80px;

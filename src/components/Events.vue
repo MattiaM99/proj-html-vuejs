@@ -74,6 +74,10 @@ export default {
           .img-box{
             img{
               width: 100%;
+              &:hover{
+                opacity: 0.8;
+                transition: 0.8s;
+              }
             }
           }       
           .event-name{

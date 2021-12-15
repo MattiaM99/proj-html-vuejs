@@ -180,7 +180,7 @@ export default {
       }
       .header-central-rbottom{
         background-color: white;
-        padding-top: 25px;
+        padding: 25px;
         .book-description{
           width: 35%;
           h5{
@@ -194,6 +194,10 @@ export default {
             width: 300px;
             border: 1px solid grey;
             background-color: #fff;
+            &:hover{
+              border: 2px solid #3DD291;
+              transition: 0.1s;
+            }
           }
           .amazon-btn{
             border-radius: 5px 0 0 5px !important;

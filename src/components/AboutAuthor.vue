@@ -29,6 +29,10 @@ export default {
       border: 0;
       padding: 10px 30px;
       border-radius: 5px;
+      &:hover{
+        background-color: #357F60;
+        transition: 0.8s;
+      }
     }
     
   }
