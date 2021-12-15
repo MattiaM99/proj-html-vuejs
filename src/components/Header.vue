@@ -15,14 +15,16 @@
       </div>
     </nav>
     <div class="header-central container-fluid d-flex justify-content-between">
-      <div class="header-central-l d-flex align-items-center">
-        <div class="caption">
-          <h1>Damon Vaughn</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa vel quaerat expedita eos voluptatibus natus!</p>
-          <span>-The New York Times</span>
-        </div>
+      <div class="row">
+        <div class="header-central-l col d-flex align-items-center">
+          <div class="caption">
+            <h1>Damon Vaughn</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa vel quaerat expedita eos voluptatibus natus!</p>
+            <span>-The New York Times</span>
+          </div>
+        </div>    
       </div>
-      <div class="header-central-r">
+      <div class="header-central-r col">
         <div class="header-central-rtop d-flex justify-content-end">
           <ul>
             <li><p>Demos</p></li>
@@ -138,10 +140,8 @@ export default {
   .header-central{
     margin-top: 80px;
     .header-central-l{
-     width: 55%;
      margin-left: 200px;
      .caption{
-       width: 80%;
        h1{
        color:#F5C358
       }

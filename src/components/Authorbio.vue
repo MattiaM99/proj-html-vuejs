@@ -4,12 +4,16 @@
       <h2>Dig A Little Deeper Into Damon Vaughn</h2>
       <h5>find out more about the author himself</h5>
     </div>
-    <div class="bio-main d-flex justify-content-between align-items-center text-center">
-      <div v-for="(item, index) in items" :key="index" class="box">
-        <img :src="item.img" :alt="item.alt">
-        <div class="box-caption text-center">
-          <h3>{{item.title}}</h3>
-          <p>{{item.caption}}</p>
+    <div class="bio-main container d-flex justify-content-between align-items-center text-center">
+      <div class="row">
+        <div v-for="(item, index) in items" :key="index" class="col">
+          <div  class="box">
+            <img :src="item.img" :alt="item.alt">
+            <div class="box-caption text-center">
+              <h3>{{item.title}}</h3>
+              <p>{{item.caption}}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -67,6 +71,7 @@ export default {
         height: 400px;
         width: 400px;
         opacity: 0.9;
+        margin-bottom: 30px;
         img{
           background-size: cover;
           height: 100%;

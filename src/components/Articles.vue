@@ -20,7 +20,7 @@
           </div>
         </div>
         <div class="articles-main-r">
-          <div v-for="(article, index) in articles" :key="index" class="box p-3 bg-white text-center">
+          <div v-for="(article, index) in articles" :key="index" class="box p-4 bg-white text-center">
             <div class="img-box"><img :src="article.img" :alt="article.alt"></div>
             <div class="box-capt text-start">
               <h5>{{article.title}}</h5>
@@ -85,7 +85,7 @@ export default {
       .articles-main-l{
         padding: 40px;
         max-width: 700px;
-        min-height: 600px;
+        height: 100%;
         background-color: #fff;
         img{
           margin-bottom: 25px;
@@ -93,6 +93,11 @@ export default {
         h4{
           color: gray;
           font-size: 18px;
+        }
+      }
+      .articles-main-r{
+        .box{
+          height: 50%;
         }
       }
     }

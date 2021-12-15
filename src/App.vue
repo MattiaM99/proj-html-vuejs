@@ -8,6 +8,7 @@
     <Newsletter/>
     <Authorbio/>
     <Articles/>
+    <Footer/>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import Events from './components/Events.vue'
 import Newsletter from './components/Newsletter.vue'
 import Authorbio from './components/Authorbio.vue'
 import Articles from './components/Articles.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -31,7 +33,8 @@ export default {
     Events,
     Newsletter,
     Authorbio,
-    Articles
+    Articles,
+    Footer
   }
 }
 </script>
